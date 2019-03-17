@@ -97,7 +97,7 @@ end
    k.mood = "nervous"
      puts k.mood
      end 
-   self.pets 
+   self.pets = {}
 end    
  
  
