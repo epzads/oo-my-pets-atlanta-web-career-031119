@@ -1,7 +1,7 @@
 class Owner
   # code goes here
   attr_accessor =:all, :count, :pets, :species, :name    
-    @name 
+   # @name 
   @@all = [ ]
   @@count = 0 
  # @pets = {fishes: [], cats: [], dogs: []} 
