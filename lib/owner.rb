@@ -79,6 +79,7 @@ end
  def play_with_cats
   self.pets[:cats].last.mood = "happy"
  end 
+ end
 # let(:owner) { Owner.new("human") }
 #   let(:fish) { Fish.new("Nemo") }
 #   let(:cat) { Cat.new("Crookshanks") }
