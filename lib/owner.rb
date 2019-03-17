@@ -63,7 +63,7 @@ end
  cat = Cat.new(name)
  @pets[:cats] << name 
  end 
- 
+ end 
  
 # let(:owner) { Owner.new("human") }
 #   let(:fish) { Fish.new("Nemo") }
