@@ -23,6 +23,11 @@ def name=(name)
   @name = name 
 end   
 
+
+def pets=(name)
+
+
+@pets 
 def name
   
   @name 
