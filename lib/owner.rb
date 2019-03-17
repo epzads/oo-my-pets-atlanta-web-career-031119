@@ -87,15 +87,15 @@ end
  def sell_pets 
   self.pets[:dogs].map do |k,v|
       k.mood = "nervous"
-     puts k.mood
+     #puts k.mood
      end 
    self.pets[:fishes].map do |k,v|
     k.mood = "nervous"
-     puts k.mood
+     #puts k.mood
      end 
    self.pets[:cats].map do |k,v|
    k.mood = "nervous"
-     puts k.mood
+     #puts k.mood
      end 
    self.pets = {}
 end    
