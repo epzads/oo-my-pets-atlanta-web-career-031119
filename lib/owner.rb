@@ -84,7 +84,10 @@ end
  self.pets[:fishes].last.mood = "happy"
  end 
  
- 
+ def sell_pets 
+   
+   
+end    
  
  
  end
