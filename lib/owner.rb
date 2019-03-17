@@ -10,7 +10,8 @@ class Owner
   @species = species 
   @@all << self
   @@count += 1 
-  @pets = {fishes: [], cats: [], dogs: []}
+  
+  @pets = { :fishes => [], :dogs => [], :cats => [] }
 end
 
 def species 
