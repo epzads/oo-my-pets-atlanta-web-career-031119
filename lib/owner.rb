@@ -70,6 +70,11 @@ end
  @pets[:dogs] << dog
  
  end 
+ 
+ def walk_dogs
+   
+    
+ end 
  end 
 # let(:owner) { Owner.new("human") }
 #   let(:fish) { Fish.new("Nemo") }
