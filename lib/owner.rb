@@ -58,6 +58,10 @@ end
   @pets[:fishes]  << fish  
   #puts @pets[:fishes]
  end 
+ def buy_cat(name)
+ 
+ cat = Cat.new(name)
+ @pets[:cats] << name 
  end 
  
  
