@@ -24,10 +24,7 @@ def name=(name)
 end   
 
 
-def pets=(name)
 
-
-@pets 
 def name
   
   @name 
@@ -102,7 +99,7 @@ end
    k.mood = "nervous"
      #puts k.mood
      end 
-   self.pets = {}
+   pets.clear
 end    
  
  
