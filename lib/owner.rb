@@ -81,7 +81,7 @@ end
  end 
  
  def feed_fish
- self.pets[:fish].last.mood = "happy"
+ self.pets[:fishes].last.mood = "happy"
  end 
  end
 # let(:owner) { Owner.new("human") }
