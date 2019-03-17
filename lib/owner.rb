@@ -73,7 +73,7 @@ end
  
  def walk_dogs
    
-    
+   self.pets[:dogs].last.mood = "happy" 
  end 
  end 
 # let(:owner) { Owner.new("human") }
